@@ -45,6 +45,5 @@ export class Match extends Room {
 
     update () {
         this.state.increaseCounter()
-        console.log(this.state.counter);
     };
 };
