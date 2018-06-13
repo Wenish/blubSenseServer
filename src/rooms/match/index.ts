@@ -44,6 +44,6 @@ export class Match extends Room {
     };
 
     update () {
-        this.state.increaseCounter()
+        this.state.calculateState()
     };
 };
