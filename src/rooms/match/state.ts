@@ -1,4 +1,3 @@
-import * as THREE from 'three'
 import { EntityMap } from 'colyseus';
 import { Player } from '../../models/player';
 import { Message } from '../../models/message';

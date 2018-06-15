@@ -19,10 +19,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.92.5",
     "colyseus": "^0.9.2",
     "express": "^4.14.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "shortid": "^2.2.8",
+    "three": "^0.92.5"
   },
   "devDependencies": {
     "ts-node": "^3.3.0",
