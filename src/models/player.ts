@@ -1,4 +1,10 @@
 export class Player {
+
+    public position: any = {
+        x: "10",
+        y: "5",
+        z: "0"
+    }
     constructor (
         public id: string,
         public health: number,
@@ -12,7 +18,7 @@ export class Player {
     static generate () {
         return new Player(
             Math.random().toString(), //id
-            health: 100, //hp
+            100, //hp
             5, //moveSpeed
         );
     }

@@ -7,14 +7,15 @@ export class State {
     players: EntityMap<Player> = {};
     counter: number = 0;
     messages: EntityMap<string> = {};
-    scene: any = new THREE.Scene();
     constructor () {
-        var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-		var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-		var cube = new THREE.Mesh( geometry, material );
-		this.scene.add( cube )
         //Do here some init stuff;
-        console.log(this.scene);
+        var player1 = Player.generate();
+        this.players["53g34g4"] = Player.generate();
+        var player2 = Player.generate();
+        this.players["thg433g"] = Player.generate();
+        var player3 = Player.generate();
+        this.players["34gergr"] = Player.generate();
+        console.log(this.players);
     };
 
     addPlayer (client) {
