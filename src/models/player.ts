@@ -13,6 +13,9 @@ export class Player {
         this.id = id;
         this.health = health;
         this.moveSpeed = moveSpeed;
+
+        this.position.x = Math.floor(Math.random() * 6) + 1;
+        this.position.y = Math.floor(Math.random() * 6) + 1;
     }
 
     static generate () {
