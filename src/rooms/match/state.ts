@@ -18,11 +18,13 @@ export class State {
     };
 
     addPlayer (client) {
+        this.players[client.id] = new Player(client.id, 100, 6);
         console.log('added player');
     };
 
 
     removePlayer (client) {
+        delete this.players[client.id]
         console.log('removed player');
     };
 
