@@ -5,6 +5,10 @@ export class Player {
         y: "0",
         z: "0"
     }
+    public playerInput: any = {
+        horizontal: "0",
+        vertical: "0"
+    }
     constructor (
         public id: string,
         public health: number,
